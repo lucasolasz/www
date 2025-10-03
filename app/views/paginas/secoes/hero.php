@@ -1,9 +1,9 @@
 <div>
-    <div className="md:hidden">
-        <!-- <CarrosselMobile /> -->
+    <div class="md:hidden">
+        <?php include COMPONENTES . 'carrosselMobile.php'; ?>
     </div>
 
-    <div className="hidden md:block">
+    <div class="hidden md:block">
         <?php include COMPONENTES . 'carrosselGrande.php'; ?>
     </div>
 </div>
