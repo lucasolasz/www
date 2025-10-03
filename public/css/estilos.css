@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "NouvelR";
+  src: url("/fonts/NouvelR-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NouvelR";
+  src: url("/fonts/NouvelR-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NouvelR";
+  src: url("/fonts/NouvelR-Book.otf") format("opentype");
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NouvelR";
+  src: url("/fonts/NouvelR-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NouvelR";
+  src: url("/fonts/NouvelR-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "NouvelR", sans-serif;
+}
